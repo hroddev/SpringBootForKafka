@@ -1,6 +1,8 @@
 server:
-  port: 8002
+  port: 8081
 
-  spring:
-    application:
-      name: consumer
+spring:
+  application:
+    name: consumer
+  kafka:
+    bootstrapServers: localhost:9092
